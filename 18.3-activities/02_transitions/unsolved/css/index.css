@@ -19,11 +19,27 @@
   width: 150px;
   text-align: center;
   height: 50px;
-  /* Add the css property transition here! */
-
+  transition: 0.3s;
 }
 /* active state */
 .hoverMe:hover {
-  /* Add your hover state css here. */
+background-color: rgb(15, 114, 153);
+transform:scale(75%);
+}
 
+.imBack {
+  grid-area: hover;
+  background-color: blue;
+  color: white;
+  width: 200px;
+  text-align: center;
+  height: 50px;
+  transition: 0.5s;
+  filter: drop-shadow(30px, 20px, 4px, #818181);
+}
+
+.imBack:hover {
+  background-color: rgb(20, 104, 48);
+  transform:scale(-75%);
+  rotate:none;
 }
